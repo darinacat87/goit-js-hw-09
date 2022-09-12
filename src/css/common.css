@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.timer .field {
+  padding: 20px;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer .value {
+  color: orangered;
+  font-size: 26px;
+  font-weight: bold;
+}
